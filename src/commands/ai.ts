@@ -13,18 +13,22 @@ export const AVAILABLE_AI_MODELS: AIModelGroup[] = [
     models: [
       "gemini-4-ultra",
       "gemini-4-pro",
-      "gemini-4-flash"
+      "gemini-4-flash",
+      "gemini-4-flash-lite",
+      "gemini-3.8-pro",
+      "gemini-3.8-flash",
+      "gemini-3.7-pro",
+      "gemini-3.7-flash",
+      "gemini-3.6-pro",
+      "gemini-3.6-flash",
+      "gemini-3.5-flash-lite"
     ]
   },
   {
     provider: "OpenAI",
     models: [
       "chatgpt-6.1",
-      "chatgpt-6",
-      "gpt-5",
-      "gpt-5-mini",
-      "o3",
-      "o3-mini"
+      "chatgpt-6"
     ]
   },
   {
@@ -33,12 +37,17 @@ export const AVAILABLE_AI_MODELS: AIModelGroup[] = [
       "claude-5-5-opus-latest",
       "claude-5-5-sonnet-latest",
       "claude-5-5-haiku-latest",
-      "claude-3-7-sonnet-latest"
+      "claude-4-7-opus-latest",
+      "claude-4-7-sonnet-latest",
+      "claude-4-6-sonnet-latest",
+      "claude-4-6-haiku-latest"
     ]
   },
   {
     provider: "DigitalOcean (Open Source)",
     models: [
+      "gemma-4-31b-it",
+      "gemma-4-9b-it",
       "deepseek-r1",
       "deepseek-r1-distill-llama-70b",
       "llama3.3-70b-instruct",

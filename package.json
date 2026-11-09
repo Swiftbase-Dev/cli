@@ -1,8 +1,9 @@
 {
-  "name": "swiftbase-cli",
+  "name": "@swiftbaseio/cli",
   "version": "1.0.0",
   "description": "Swiftbase TypeScript CLI",
   "main": "dist/index.js",
+  "private": false,
   "bin": {
     "swiftbase": "./dist/index.js"
   },
